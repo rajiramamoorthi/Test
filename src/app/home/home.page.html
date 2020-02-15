@@ -8,7 +8,7 @@
 
 <ion-content [fullscreen]="true">
 
-  <ion-slides [options]="slideOpts" >
+  <ion-slides [options]="slideOpts"  #boreListSlider>
   <ion-slide *ngFor="let item of boreList" >
     <span>{{item}}</span>
   </ion-slide>
